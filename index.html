@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"content="with=device-width,initial-scale=1.0">
+    <title>University modern</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+ <section class="header">
+      <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+             
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+<div class="text-box">
+    <h1>World's Modern University</h1>
+    <p>The more you learn, the more you want to learn,<br>the more the world becomes more interesting to you, 
+        and discovering it becomes more fun.
+    </p>
+    <a href=""class="hero-btn">Visit Us To Know More</a>
+</div>
+
+</section>
+<section class="course">
+<h1>Courses We Offer</h1>
+<p>In India, the United Kingdom, Australia and Canada, a course is the entire programme of studies required to complete a university degree</p>
+
+<div class="row">
+<div class="course-col">
+    <h3>Intermediate</h3>
+    <p>Learn French at our school in Covent Garden, London.
+    Courses for Intermediate level French available now, daytime,
+    evenings and weekends!</p>
+</div>
+<div class="course-col">
+    <h3>Degree</h3>
+    <p>higher education institutions in London provide short courses, 
+        certificates and diploma studies.</p>
+</div>
+<div class="course-col">
+    <h3>Post Graduation</h3>
+    <p>postgraduate course for you.Kingston University London offers of degrees, 
+        including part-time study options.</p>
+</div>
+
+</section>
+
+<section class="campus">
+<h1>Our Global Campus</h1>
+<p>United Kingdom granted a royal charter in the same year.</p>
+
+<div class="row">
+   <div class="campus-col">
+       <img src="images/london.png">
+       <div class="layer">
+           <h3>London</h3>
+       </div>
+   </div>
+   <div class="campus-col">
+    <img src="images/newyork.png">
+    <div class="layer">
+        <h3>NEW YORK</h3>
+    </div>
+</div> 
+<div class="campus-col">
+    <img src="images/washington.png">
+    <div class="layer">
+        <h3>CANADA</h3>
+    </div>
+</div>
+
+</div>
+
+
+</section>
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Design and Technology Facilities,
+        Media and Communication Facilities.</p>
+
+        <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>world's Library</h3>
+            <p>library because not everything on internet is true</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>world's play Ground</h3>
+            <p>I have a plan of action, but the game is a game of adjustments</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Healthy Food</h3>
+            <p>Everything in excess Is opposed by nature</p>
+        </div>
+
+        </div>
+
+</section>
+    
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>show consists of a person's written or spoken statement.</p>
+
+<div class="row">
+    <div class="testimonial-col">
+        <img src="images/user1.jpg">
+        <div>
+            <p>My experience is great. I love it. I initially signed up for IT course.
+                After first semester of programming module</p>
+                <h3>Sara jane</h3>
+                <iclass="fa fa-star-o" style="font-size:24px"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+        </div>
+    </div>
+    <div class="testimonial-col">
+        <img src="images/user2.png">
+        <div>
+            <p>Imperial has a really good alumni network which current 
+                students can benefit greatly from</p>
+                <h3>Adam saleh</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+<section class="cta">
+    <h1>Enroll for Various Online Courses <br> Anywhere From The World</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+
+</section>
+
+<section class="footer">
+       <h4>About US</h4>
+       <p>We are one in the UK with over 120,000 students in London, 
+           <br>and a further 50,000 studying across 190 countries for a University of London degree.</p>
+          
+           <div class="icons">
+           <i class="fa fa-Facebook"></i>
+           <i class="fa fa-Twitter"></i>
+           <i class="fa fa-Instagram"></i>
+           <i class="fa fa-Linkedin"></i>   
+          </div> 
+
+</section>
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+      navLinks.style.right = "0";
+  }
+  function hideMenu(){
+      navLinks.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>
